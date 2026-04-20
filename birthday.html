@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="birthday.css">
+</head>
+<body>
+    <div class="love-container" >
+        <!-- Hearts will be generated here -->
+        <div id="first" class="firstDiv">
+            <h2>It's your special day yeyey!</h2>
+        </div>
+        <div id="second" class="hidden">
+          <h2>I wanted to make something special as you are special for me</h2>
+        </div>
+
+        <div id="third" class="hidden">
+          <h2>Do you wanna see what i made?</h2>
+          <div class="optionButtons">
+            <button class="yesButton" onclick="yesFunction()">Yes</button>
+            <button class="noButton" onclick="openPlease()">No</button>
+          </div>
+        </div>
+    </div>
+    <div id="please">
+        <h2>Karlee yrrrrr , pleaseeeee 🤌🫰🥺</h2>
+        <button onclick="yesFromPlease()">Back</button>
+    </div>
+    <div class="lightOffSection">
+        <button class="lightsOn" onclick="lightsOnFunc()">Lights On</button>
+    </div>
+    <div class="lightsOnSection">
+        <audio id="birthdayMusic" src="Until_I_Found_You.mp3"></audio>
+        <button class="playMusic" onclick="playMusicFunc()">Play Music</button>
+    </div>
+    <div class="happyBirthWish">
+        <img src="https://img.freepik.com/premium-vector/colorful-birthday-decoration-element-vector_53876-1078524.jpg">
+    </div>
+    <div class="msg">
+        <h2>I have a massage for you</h2>
+    </div>
+    <div class="birthDayWise">
+        <img src="picture.jpeg" class="birthday-img">
+        <div class="letter">
+            <h1>Dear Madam Jii</h1>
+            <h4>To Chanachur,
+                <br>
+                    Happiest Birthday to one of the most amazing person I know
+                    On your special day, I just want you to know how much you mean to me.
+                    You bring light, laughter, and so much love wherever you go.
+                    May your day be filled with all the happiness you deserve, and may this year bring you endless success, peace, and joy.
+                    Always stay the amazing person you are — the world is better with you in it.
+                    Thank you mera constant "bak bak" sunne ke liye, You will always find me by your side in your tough times
+                    And at the end, once again, a veryyy happyyyy birthday to youuuu</h4>
+        </div>
+    </div>
+    <script src="birthday.js"></script>
+</body>
+</html>
+
+
